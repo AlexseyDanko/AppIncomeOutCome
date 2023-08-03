@@ -11,7 +11,6 @@ class User(Base):
     username = sa.Column(sa.Text, unique=True)
     password_hash = sa.Column(sa.Text)
 
-
 class Operation(Base):
     __tablename__ = 'operations'
 
