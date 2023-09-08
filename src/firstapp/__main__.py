@@ -6,5 +6,4 @@ uvicorn.run(
     host=settings.server_host,
     port=settings.server_port,
     reload=True,
-
 )
